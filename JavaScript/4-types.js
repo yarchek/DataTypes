@@ -2,21 +2,21 @@
 
 const i = 5;
 const f = 10.3;
-const s = 'Hello';
+const s = 'Hello world!';
 const b = true;
 
 const o = {
-  name: 'Marcus Aurelius',
-  born: 121,
-  city: 'Roma',
-  position: 'emperor'
+  name: 'Yaroslav Chekotun',
+  born: 2000,
+  city: 'Kherson',
+  position: 'student'
 };
 
 o.city = 'Odessa';
 
 const a = ['Athens', 'Roma', 'London', 'Beijing', 'Kiev', 'Riga'];
 
-a.push('Odessa');
+a.push('Kharkiv');
 a.unshift('New York');
 
 console.log('shifted:' + a.shift());
